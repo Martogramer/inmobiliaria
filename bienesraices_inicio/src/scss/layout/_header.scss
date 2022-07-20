@@ -1,4 +1,4 @@
-.no-webp .inicio{
+.no-webp .inicio {
     background-image: url(../img/header.jpg);
 }
 .webp .inicio {
@@ -14,12 +14,13 @@
         background-size: cover;
 
         @include tablet {
-            min-height: 50rem;
+            min-height: 70rem;
         }
-    }
-    .contenido-header{
-        @include tablet {
-            min-height: 50rem;
+
+        .contenido-header {
+            @include tablet {
+                min-height: 70rem;
+            }
         }
     }
 }
@@ -29,10 +30,11 @@
     flex-direction: column;
     justify-content: space-between;
 
-
-    h1{
+    h1 {
         text-align: left;
         color: $blanco;
+        font-weight: $bold;
         line-height: 2;
+        max-width: 60rem;
     }
 }
